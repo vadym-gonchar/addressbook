@@ -1,4 +1,6 @@
-public class Main {
+package freshman;
+
+public class Fibonacci {
     public static void main(String[] args) {
 
         int i0 = 1;
@@ -14,7 +16,5 @@ public class Main {
             i0 = i1;
             i1 = i2;
         }
-        System.out.println("Hello!");
-
     }
 }
