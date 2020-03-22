@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="addressbook" />
         <module name="sandbox" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="6" />
   </component>
 </project>
