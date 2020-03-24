@@ -36,11 +36,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Rerun Failed Tests" />
-    </enabled-run-configurations>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -63,6 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574287010203" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../addressbook/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/sample" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -71,18 +67,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../addressbook/src/test/java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sample" />
       <recent name="freshman" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/sample" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="freshman" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../addressbook/src/test/java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/sample" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.GroupCreationTest">
@@ -210,38 +206,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="707" y="430" width="493" height="190" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584907243391" />
-    <state width="1638" height="194" key="GridCell.Tab.0.bottom" timestamp="1584907693895">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="205" key="GridCell.Tab.0.bottom" timestamp="1585068368519">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="194" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584907693895" />
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.925@0.23.1680.925" timestamp="1584879046992" />
-    <state width="1638" height="136" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1584821682264" />
+    <state width="1638" height="205" key="GridCell.Tab.0.bottom/0.23.1680.925@0.23.1680.925" timestamp="1585064997908" />
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1584908706190" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.934@0.23.1680.934" timestamp="1584877437515" />
     <state width="1153" height="251" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1584879126433" />
-    <state width="1638" height="194" key="GridCell.Tab.0.center" timestamp="1584907693894">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="205" key="GridCell.Tab.0.bottom/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068368519" />
+    <state width="1638" height="205" key="GridCell.Tab.0.center" timestamp="1585068368518">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="194" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584907693894" />
-    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.925@0.23.1680.925" timestamp="1584879046991" />
-    <state width="1638" height="136" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1584821682263" />
+    <state width="1638" height="205" key="GridCell.Tab.0.center/0.23.1680.925@0.23.1680.925" timestamp="1585064997907" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1584908706189" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.934@0.23.1680.934" timestamp="1584877437514" />
     <state width="1153" height="251" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1584879126432" />
-    <state width="1638" height="194" key="GridCell.Tab.0.left" timestamp="1584907693894">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="205" key="GridCell.Tab.0.center/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068368518" />
+    <state width="1638" height="205" key="GridCell.Tab.0.left" timestamp="1585068368518">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="194" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584907693894" />
-    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.925@0.23.1680.925" timestamp="1584879046990" />
-    <state width="1638" height="136" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1584821682263" />
+    <state width="1638" height="205" key="GridCell.Tab.0.left/0.23.1680.925@0.23.1680.925" timestamp="1585064997907" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1584908706189" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.934@0.23.1680.934" timestamp="1584877437513" />
     <state width="1153" height="251" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1584879126431" />
-    <state width="1638" height="194" key="GridCell.Tab.0.right" timestamp="1584907693895">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="205" key="GridCell.Tab.0.left/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068368518" />
+    <state width="1638" height="205" key="GridCell.Tab.0.right" timestamp="1585068368519">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="194" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584907693895" />
-    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.925@0.23.1680.925" timestamp="1584879046991" />
-    <state width="1638" height="136" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1584821682264" />
+    <state width="1638" height="205" key="GridCell.Tab.0.right/0.23.1680.925@0.23.1680.925" timestamp="1585064997907" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1584908706190" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.934@0.23.1680.934" timestamp="1584877437514" />
     <state width="1153" height="251" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1584879126432" />
+    <state width="1638" height="205" key="GridCell.Tab.0.right/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068368519" />
     <state width="1638" height="304" key="GridCell.Tab.1.bottom" timestamp="1584820872418">
       <screen x="0" y="23" width="1680" height="929" />
     </state>
@@ -258,6 +258,15 @@
       <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="304" key="GridCell.Tab.1.right/0.23.1680.929@0.23.1680.929" timestamp="1584820872418" />
+    <state x="575" y="132" key="RefactorJ.IntroduceParameterObject" timestamp="1585068988902">
+      <screen x="0" y="23" width="1680" height="929" />
+    </state>
+    <state x="575" y="132" key="RefactorJ.IntroduceParameterObject/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068988902" />
+    <state x="637" y="414" key="ReplaceDuplicatesPrompt" timestamp="1585068454743">
+      <screen x="0" y="23" width="1680" height="929" />
+    </state>
+    <state x="637" y="412" key="ReplaceDuplicatesPrompt/0.23.1680.925@0.23.1680.925" timestamp="1585064943731" />
+    <state x="637" y="414" key="ReplaceDuplicatesPrompt/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068454743" />
     <state x="155" y="97" width="1455" height="834" key="SettingsEditor" timestamp="1584745349329">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
@@ -271,6 +280,16 @@
       <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state x="496" y="322" key="com.intellij.ide.util.TipDialog/0.23.1680.929@0.23.1680.929" timestamp="1584733196677" />
+    <state x="578" y="246" width="524" height="482" key="extract.method.dialog" timestamp="1585068451228">
+      <screen x="0" y="23" width="1680" height="929" />
+    </state>
+    <state x="578" y="245" width="524" height="482" key="extract.method.dialog/0.23.1680.925@0.23.1680.925" timestamp="1585064932610" />
+    <state x="578" y="246" key="extract.method.dialog/0.23.1680.929@0.23.1680.929" timestamp="1584908662306" />
+    <state x="578" y="246" key="extract.method.dialog/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068451228" />
+    <state x="508" y="285" key="git4idea.merge.GitPullDialog" timestamp="1585070620647">
+      <screen x="0" y="23" width="1680" height="925" />
+    </state>
+    <state x="508" y="285" key="git4idea.merge.GitPullDialog/1680.23.1680.1027/0.23.1680.925@0.23.1680.925" timestamp="1585070620647" />
     <state x="276" y="117" key="new project wizard" timestamp="1584745336658">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
