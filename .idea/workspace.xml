@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e105a908-1c8e-45f7-a429-c450307c5eea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../addressbook/src/test/java/sample/GroupDeletionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addressbook/src/test/java/sample/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook/src/test/java/sample/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook/src/test/java/sample/GroupCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook/target/test-classes/sample/GroupCreationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook/target/test-classes/sample/GroupCreationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +38,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../addressbook" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../addressbook/src/test/java/sample" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
@@ -48,13 +52,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1TtmjbK58k4SaAgY5vgmckwfMKT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -65,7 +72,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41224122" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,16 +89,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GroupCreationTest">
+  <component name="RunManager" selected="JUnit.GroupDeletionTest">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="freshman.Fibonacci" />
-      <module name="sandbox" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="sandbox" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,6 +122,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupDeletionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.GroupDeletionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="c" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <extension name="coverage">
@@ -137,30 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="barancev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="barancev" />
-      <option name="MAIN_CLASS_NAME" value="barancev.RectangleTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupDeletionTest" />
         <item itemvalue="JUnit.GroupCreationTest" />
         <item itemvalue="JUnit.GroupCreationTest.groupCreation" />
         <item itemvalue="JUnit.c" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="TestNG.RectangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +193,7 @@
     </todo-panel>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
@@ -203,6 +202,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="192" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1584907383056" />
+    <state x="544" y="248" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1585077780225">
+      <screen x="0" y="23" width="1680" height="929" />
+    </state>
+    <state x="544" y="248" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585077780225" />
     <state x="606" y="353" width="467" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584813641378">
       <screen x="0" y="23" width="1680" height="929" />
     </state>
@@ -225,8 +228,8 @@
     </state>
     <state x="707" y="430" width="493" height="190" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584907243391" />
     <state x="707" y="402" width="493" height="177" key="Github.ShareDialog/1680.23.1680.1027/0.23.1680.925@0.23.1680.925" timestamp="1585071278808" />
-    <state width="1638" height="205" key="GridCell.Tab.0.bottom" timestamp="1585071230450">
-      <screen x="0" y="23" width="1680" height="925" />
+    <state width="1638" height="175" key="GridCell.Tab.0.bottom" timestamp="1585079742388">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="194" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584907693895" />
     <state width="1638" height="205" key="GridCell.Tab.0.bottom/0.23.1680.925@0.23.1680.925" timestamp="1585064997908" />
@@ -234,9 +237,9 @@
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.934@0.23.1680.934" timestamp="1584877437515" />
     <state width="1153" height="251" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1584879126433" />
     <state width="1638" height="205" key="GridCell.Tab.0.bottom/1680.23.1680.1027/0.23.1680.925@0.23.1680.925" timestamp="1585071230450" />
-    <state width="1638" height="205" key="GridCell.Tab.0.bottom/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068368519" />
-    <state width="1638" height="205" key="GridCell.Tab.0.center" timestamp="1585071230450">
-      <screen x="0" y="23" width="1680" height="925" />
+    <state width="1638" height="175" key="GridCell.Tab.0.bottom/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585079742388" />
+    <state width="1638" height="175" key="GridCell.Tab.0.center" timestamp="1585079742387">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="194" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584907693894" />
     <state width="1638" height="205" key="GridCell.Tab.0.center/0.23.1680.925@0.23.1680.925" timestamp="1585064997907" />
@@ -244,9 +247,9 @@
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.934@0.23.1680.934" timestamp="1584877437514" />
     <state width="1153" height="251" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1584879126432" />
     <state width="1638" height="205" key="GridCell.Tab.0.center/1680.23.1680.1027/0.23.1680.925@0.23.1680.925" timestamp="1585071230450" />
-    <state width="1638" height="205" key="GridCell.Tab.0.center/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068368518" />
-    <state width="1638" height="205" key="GridCell.Tab.0.left" timestamp="1585071230449">
-      <screen x="0" y="23" width="1680" height="925" />
+    <state width="1638" height="175" key="GridCell.Tab.0.center/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585079742387" />
+    <state width="1638" height="175" key="GridCell.Tab.0.left" timestamp="1585079742386">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="194" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584907693894" />
     <state width="1638" height="205" key="GridCell.Tab.0.left/0.23.1680.925@0.23.1680.925" timestamp="1585064997907" />
@@ -254,9 +257,9 @@
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.934@0.23.1680.934" timestamp="1584877437513" />
     <state width="1153" height="251" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1584879126431" />
     <state width="1638" height="205" key="GridCell.Tab.0.left/1680.23.1680.1027/0.23.1680.925@0.23.1680.925" timestamp="1585071230449" />
-    <state width="1638" height="205" key="GridCell.Tab.0.left/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068368518" />
-    <state width="1638" height="205" key="GridCell.Tab.0.right" timestamp="1585071230450">
-      <screen x="0" y="23" width="1680" height="925" />
+    <state width="1638" height="175" key="GridCell.Tab.0.left/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585079742386" />
+    <state width="1638" height="175" key="GridCell.Tab.0.right" timestamp="1585079742387">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state width="1638" height="194" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584907693895" />
     <state width="1638" height="205" key="GridCell.Tab.0.right/0.23.1680.925@0.23.1680.925" timestamp="1585064997907" />
@@ -264,7 +267,7 @@
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.934@0.23.1680.934" timestamp="1584877437514" />
     <state width="1153" height="251" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1584879126432" />
     <state width="1638" height="205" key="GridCell.Tab.0.right/1680.23.1680.1027/0.23.1680.925@0.23.1680.925" timestamp="1585071230450" />
-    <state width="1638" height="205" key="GridCell.Tab.0.right/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068368519" />
+    <state width="1638" height="175" key="GridCell.Tab.0.right/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585079742387" />
     <state width="1638" height="304" key="GridCell.Tab.1.bottom" timestamp="1584820872418">
       <screen x="0" y="23" width="1680" height="929" />
     </state>
@@ -285,16 +288,17 @@
       <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state x="575" y="132" key="RefactorJ.IntroduceParameterObject/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068988902" />
-    <state x="637" y="414" key="ReplaceDuplicatesPrompt" timestamp="1585068454743">
+    <state x="637" y="414" key="ReplaceDuplicatesPrompt" timestamp="1585077434060">
       <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state x="637" y="412" key="ReplaceDuplicatesPrompt/0.23.1680.925@0.23.1680.925" timestamp="1585064943731" />
-    <state x="637" y="414" key="ReplaceDuplicatesPrompt/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068454743" />
-    <state x="155" y="97" width="1455" height="834" key="SettingsEditor" timestamp="1584745349329">
-      <screen x="0" y="23" width="1680" height="941" />
+    <state x="637" y="414" key="ReplaceDuplicatesPrompt/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585077434060" />
+    <state x="155" y="96" width="1455" height="834" key="SettingsEditor" timestamp="1585079562054">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state x="111" y="135" key="SettingsEditor/0.23.1680.934@0.23.1680.934" timestamp="1584742737110" />
     <state x="155" y="97" width="1455" height="834" key="SettingsEditor/0.23.1680.941@0.23.1680.941" timestamp="1584745349329" />
+    <state x="155" y="96" key="SettingsEditor/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585079562054" />
     <state x="635" y="276" key="chooseDestDirectoryDialog" timestamp="1584813641261">
       <screen x="0" y="23" width="1680" height="929" />
     </state>
@@ -307,12 +311,12 @@
       <screen x="0" y="23" width="1680" height="925" />
     </state>
     <state x="629" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.23.1680.1027/0.23.1680.925@0.23.1680.925" timestamp="1585071307810" />
-    <state x="578" y="246" width="524" height="482" key="extract.method.dialog" timestamp="1585068451228">
+    <state x="578" y="246" width="524" height="482" key="extract.method.dialog" timestamp="1585077431048">
       <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state x="578" y="245" width="524" height="482" key="extract.method.dialog/0.23.1680.925@0.23.1680.925" timestamp="1585064932610" />
     <state x="578" y="246" key="extract.method.dialog/0.23.1680.929@0.23.1680.929" timestamp="1584908662306" />
-    <state x="578" y="246" key="extract.method.dialog/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585068451228" />
+    <state x="578" y="246" width="524" height="482" key="extract.method.dialog/1680.23.1680.1027/0.23.1680.929@0.23.1680.929" timestamp="1585077431048" />
     <state x="508" y="285" key="git4idea.merge.GitPullDialog" timestamp="1585070620647">
       <screen x="0" y="23" width="1680" height="925" />
     </state>
