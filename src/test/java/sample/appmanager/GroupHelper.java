@@ -3,7 +3,6 @@ package sample.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import sample.model.ContactData;
 import sample.model.GroupData;
 
 import java.util.ArrayList;
